@@ -1,0 +1,47 @@
+# downloads and build output
+import/*
+!import/.gitkeep
+output/
+build/
+tmp/
+
+# local agent instructions (not published)
+AGENTS.md
+CLAUDE.md
+.claude/
+
+# secrets and local config
+.env
+.env.*
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ruff_cache/
+.pytest_cache/
+
+# macOS
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+.fseventsd
+.TemporaryItems
+.DocumentRevisions-V100
+Icon?
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# editors
+.vscode/
+.idea/
+*.swp
+*~
